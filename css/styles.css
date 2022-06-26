@@ -1,0 +1,201 @@
+
+
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+
+}
+
+/* Title image rotate60*/
+
+.rotate60 {
+  -webkit-transform: rotate(25deg);
+-moz-transform: rotate(25deg);
+-o-transform: rotate(25deg);
+-ms-transform: rotate(25deg);
+transform: rotate(25deg);
+width: 60%;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat"
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* navigation bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+.apple-button {
+  background-color: black;
+  color: white;
+}
+
+/* Features */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.featurefa {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.featurefa:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial section */
+
+#testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.bev-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.maxy {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.goog-butt {
+  color: gray;
+
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .rotate60 {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+/* cta section */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.truelove {
+  text-align: center;
+  font-family: "Montserrat";
+  color: #fff;
+
+}
+
+.cta-button {
+
+}
+
+
+/* footer */
+
+#footer {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
